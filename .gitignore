@@ -1,0 +1,77 @@
+# Python / Python相關
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Playwright / Playwright相關
+.playwright/
+playwright-report/
+test-results/
+
+# Test Reports / 測試報告
+reports/
+*.html
+*.xml
+*.json
+
+# Keep reports directory structure / 保留 reports 目錄結構
+!reports/.gitkeep
+
+# IDE / IDE相關
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment Variables / 環境變數
+.env
+.env.local
+
+# OS / 作業系統
+.DS_Store
+Thumbs.db
+
+# Documentation / 文件（Portfolio 專案：選擇性上傳）
+# 上傳展示 QA 專業能力的文檔，排除學習筆記性質的文檔
+
+# 排除所有 .md 文件（預設）
+*.md
+!README.md
+
+# 上傳展示 QA 專業能力的文檔 / Upload documents that showcase QA expertise
+!docs/TEST_STRATEGY.md      # 測試策略 - 展示 QA 思維
+!docs/TEST_PLAN.md          # 測試計劃 - 展示規劃能力
+!docs/TEST_CASES.md         # 測試案例 - 展示設計能力
+!docs/ARCHITECTURE.md       # 架構設計 - 展示技術理解
+!docs/SETUP.md              # 設置指南 - 展示文檔能力
+!docs/QA_WORKFLOW.md        # QA 工作流程 - 展示工作流程理解
+!docs/TEST_DATA.md          # 測試資料 - 展示資料管理能力（公開測試帳號，可安全上傳）
+
+# 排除學習筆記性質的文檔 / Exclude learning notes
+docs/GIT_SETUP.md           # Git 使用指南（學習筆記，非 QA 專業能力展示）
+docs/PORTFOLIO_GUIDE.md     # Portfolio 指南（內部參考，不需要上傳）
+
+# 保留 docs 目錄結構
+docs/.gitkeep
+docs/README.md              # docs 目錄說明

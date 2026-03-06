@@ -1,0 +1,14 @@
+# Playwright Python Test Automation Dependencies
+# Playwright Python 測試自動化依賴套件
+
+# Core Testing Framework / 核心測試框架
+pytest==7.4.3                    # Test framework / 測試框架
+pytest-playwright==0.4.3          # Playwright plugin for pytest / Playwright的pytest插件
+playwright==1.40.0                 # Browser automation / 瀏覽器自動化
+
+# Test Reporting / 測試報告
+pytest-html==4.1.1                # HTML test reports / HTML測試報告
+pytest-xdist==3.5.0               # Parallel test execution / 並行測試執行
+
+# Utilities / 工具
+python-dotenv==1.0.0               # Environment variable management / 環境變數管理
