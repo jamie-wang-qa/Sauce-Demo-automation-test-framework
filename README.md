@@ -80,7 +80,6 @@ npm run test:login
 - [Test Data](./docs/TEST_DATA.md) - Test credentials and data / 測試憑證與資料
 - [Setup Guide](./docs/SETUP.md) - Setup and installation instructions / 設置與安裝說明
 - [QA Workflow](./docs/QA_WORKFLOW.md) - QA workflow after test execution / 測試執行後的QA工作流程
-- [Git Setup](./docs/GIT_SETUP.md) - Git setup and GitHub guide / Git設置與GitHub指南
 
 ## Contributing / 貢獻
 
